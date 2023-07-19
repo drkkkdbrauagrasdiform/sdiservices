@@ -27,10 +27,23 @@
         <input type="text" class="form-control" id="Last name" name="Last&nbsp;Name" required="">
       </div>
 
-      <div class="col-md-6">
+      <!-- <div class="col-md-6">
         <label for="studentClass" class="form-label">Student Class</label>
         <input type="text" class="form-control" id="studentClass" name="Student&nbsp;Class" required="">
+      </div> -->
+
+      <div class="col-md-6">
+        <label for="inputClass" class="form-label">Student Class</label>
+        <select id="inputClass" class="form-select" name="Student&nbsp;Class">
+          <option selected>Choose...</option>
+          <option>UG</option>
+          <option>PG</option>
+          <option>Researcher</option>
+          <option>Faculty Member</option>
+          <option>Other</option>
+        </select>
       </div>
+
       <div class="col-md-6">
         <label for="inputFacultySubject" class="form-label">Faculty/Subject</label>
         <input type="text" class="form-control" id="inputFacultySubject" name="Faculty/Subject" required="">
@@ -51,16 +64,10 @@
       </div>
 
       <div class="col-md-6">
-        <label for="inputDRTitleName" class="form-label">Demand/Required Title Name</label>
-        <input type="text" class="form-control" id="inputDRTitleName" name="Demand/Required&nbsp;Title&nbsp;Name" required="">
+        <label for="inputDRTitleName" class="form-label">Demand/Required Document Name</label>
+        <input type="file" class="form-control" id="inputDRTitleName" name="Document&nbsp;Name" required="">
       </div>
-      <!-- <div class="col-md-4">
-        <label for="inputState" class="form-label">State</label>
-        <select id="inputState" class="form-select">
-          <option selected>Choose...</option>
-          <option>...</option>
-        </select>
-      </div> -->
+
 
 
       <div class="col-12">
