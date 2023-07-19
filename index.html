@@ -10,13 +10,16 @@
 <body>
   <div class="container">
     <h1>SDI Services Form</h1>
-    <form action="https://formsubmit.co/f399188a4e9ba9573a534dd8fe49be9b" method="POST" class="row g-3 needs-validation">
+    <form action="https://formsubmit.co/f399188a4e9ba9573a534dd8fe49be9b" method="POST" enctype="multipart/form-data" class="row g-3 needs-validation">
 
       <!-- honeypot -->
       <input type="text" name="_honey" id="honey" style="display: none;">
 
       <!-- submitted -->
       <input type="hidden" name="_next" id="next" value="submit.html">
+
+      <!-- new mail -->
+      <input type="hidden" name="_subject" value="New form!">
 
       <div class="col-md-6">
         <label for="firstname" class="form-label">First Name</label> 
@@ -26,11 +29,6 @@
         <label for="lastname" class="form-label">Last Name</label>
         <input type="text" class="form-control" id="Last name" name="Last&nbsp;Name" required="">
       </div>
-
-      <!-- <div class="col-md-6">
-        <label for="studentClass" class="form-label">Student Class</label>
-        <input type="text" class="form-control" id="studentClass" name="Student&nbsp;Class" required="">
-      </div> -->
 
       <div class="col-md-6">
         <label for="inputClass" class="form-label">Student Class</label>
@@ -63,10 +61,10 @@
         <input type="email" class="form-control" id="inputEmail4" name="Email&nbsp;Address" required="">
       </div>
 
-      <div class="col-md-6">
+      <!-- <div class="col-md-6">
         <label for="inputDRTitleName" class="form-label">Demand/Required Document Name</label>
-        <input type="file" class="form-control" id="inputDRTitleName" name="Document&nbsp;Name" required="">
-      </div>
+        <input type="file" class="form-control" id="inputDRTitleName" name="Document&nbsp;Name" accept="image/png, image/jpeg, text/pdf" required="">
+      </div> -->
 
 
 
